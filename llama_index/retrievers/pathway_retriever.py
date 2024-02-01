@@ -90,7 +90,7 @@ class PathwayVectorServer:
     def run_server(
         self,
         host: str,
-        port: str,
+        port: int,
         threaded: bool = False,
         with_cache: bool = True,
         cache_backend: Any = None,
